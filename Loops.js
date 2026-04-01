@@ -39,3 +39,14 @@ i++;
 }while (i<=5);
 }
 
+// for in Loop
+let student = {
+    name: "Anshu Priya",
+    age: 22,
+    city: "Delhi",
+    ispassed: true
+}
+for(let i in student){
+    console.log(i);
+    //console.log(i, student[i]);
+}
